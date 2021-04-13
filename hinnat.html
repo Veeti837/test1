@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles3.css">
+</head>
+<body>
+    <div id="header">
+        <h1>Mäsän avaruusmatkat</h1>
+    </div>
+    <div class="container">
+        <div class="navbar">
+            <nav>
+                <ul>
+                    <li><a href="file:///C:/Users/Veeti/Desktop/oma%20nettisivu/index.html">Etusivu</a></li>
+                    <li><a href="file:///C:/Users/Veeti/Desktop/oma%20nettisivu/tietoa.html">Tietoa</a></li>
+                    <li><a href="file:///C:/Users/Veeti/Desktop/oma%20nettisivu/hinnat.html">Hinnat</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <div id="section1">
+        <section>
+            <table style="width: 75%;">
+    
+                <caption>Hinnasto</caption>    
+                <tr>
+                    <th>Päiväreissu (aikuinen)</th>
+                    <th>150 000€</th>
+                </tr>
+                <tr>
+                    <td>Päiväreissu (lapsi)</td>
+                    <td>100 000€ </td>
+                </tr>
+                <tr>
+                    <td>Neljän hengen päiväreissupaketti</td>
+                    <td>400 000€</td>
+                </tr>
+                <tr>
+                    <td>2 vuorokauden reissu (aikuinen)</td>
+                    <td>300 000€</td>
+                </tr>
+                <tr>
+                    <td>2 vuorokauden reissu (lapsi)</td>
+                    <td>250 000€</td>
+                </tr>
+                <tr>
+                    <td>Neljän hengen 2 vuorokauden reissupaketti</td>
+                    <td>900 000€</td>
+                </tr>
+            </table>
+            <br>
+
+            <h3>(2 päivän reissupaketti tapahtuu isommassa avaruusaluksessa jossa on yöpymistilat ym.)</h3>
+        </section>
+    </div>
+
+    <div id="section2">
+        <section>
+    <h2>Tilauslomake</h2>
+    <br>
+    <form>
+        Etunimi: <br> <input type="text" name="first_name"/>
+        <br>
+        Sukunimi: <br> <input type="text" name="last_name"/>
+        <br>
+        Sähköposti: <br> <input type="text" name="email"/>
+        <br>
+        Puhelinnumero: <br> <input type="tel" id="phone" name="phone"
+        pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+        required>
+ 
+ <small>Format: 123-456-7890</small>
+    </form>
+
+    <form>
+        Valitse matka:
+        <select name="dropdown">
+            <option value="daytrip_adult" selected>Päiväreissu (aikuinen)</option>
+            <option value="daytrip_child" selected>Päiväreissu (lapsi)</option>
+            <option value="2_day_trip (adult)" selected>2 vuorokauden reissu (aikuinen)</option>
+            <option value="2_day_trip (child)" selected>2 vuorokauden reissu (lapsi)</option>
+            <option value="4_person_daytrip" selected>Neljän hengen päiväreissupaketti</option>
+            <option value="4_person_2_day_trip" selected>Neljän hengen 2 vuorokauden reissupaketti</option>
+        </select>
+    </form>
+
+    <form>
+        <input type="checkbox" name="accept_terms" value="on"> Hyväksyn käyttöehdot
+    </form>
+
+    <form>
+        <input type="submit" name="submit" value="Jatka maksamaan"/>
+    </form>
+        </section>
+    </div>
+
+    <div id="footer">
+        <footer>
+         <ul>
+            <li>Avaruustie 13</li>
+            <li>00730 Helsinki</li>
+            <li>masa.space@gmail.com</li>
+             <li>puh. 012 1234567</li>
+         </ul>   
+        </footer>
+    </div>
+</body>
+</html>
